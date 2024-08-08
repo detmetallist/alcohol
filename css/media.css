@@ -1,0 +1,300 @@
+@media screen and (max-width: 1200px) {
+	.why_us .tribloka .item{
+		padding-left: 26px;
+	}
+	.why_us .tribloka .item img{
+		position: relative;
+    	top: 0;
+    	left: 0;
+    	margin: 0 auto 25px;
+    	display: block;
+    	height: 150px;
+	}
+	.rodnie_blizkie, .pozvonite, .osobennosti_igromanii{
+		background-size: auto 100%;
+	}
+}
+@media screen and (max-width: 1070px){
+	.ceni{
+		background-size: auto 100%;
+	}
+	.main_section.page_section h1{
+		font-size: 42px;
+	}
+	.logo p{
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 970px) {
+	.mobile_header{
+		display: block;
+	}
+	header{
+		display: none;
+	}
+	.main_section.page_section h1{
+		font-size: 34px;
+	}
+	.top{
+		position: relative;
+		top: 65px;
+	}
+	.logo{
+		height: 66px;
+		padding-left: 54px;
+	}
+	.logo img{
+		height: 43px;
+		margin-top: -5px;
+	}
+	.logo p{
+		font-size: 12px;
+		margin-top: -3px;
+	}
+	.lechim .tribloka .item{
+		width: calc(33% - 20px);
+	}
+	.lechim .tribloka h4, .lechim .tribloka p{
+		width: calc(100% - 20px);
+	}
+	.lechim .tribloka p{
+		height: 235px;
+	}
+	.lechim .tribloka .item img{
+		width: 100%;
+	}
+	.lechim .tribloka .item_img{
+		height: 195px;
+	}
+	.dvabloka{
+		flex-direction: column;
+	}
+	.dvabloka .item{
+		width: 100% !important;
+	}
+	.dvabloka .item h3{
+		margin-bottom: 25px;
+		width: 100%;
+		margin-left: 0;
+		text-align: center;
+	}
+	.gradient{
+		display: none;
+	}
+}
+@media screen and (max-width: 830px){
+	.tribloka{
+		flex-direction: column;
+		align-items: center;
+	}
+	.tribloka .item{
+		margin-top: 25px !important;
+		margin-bottom: 25px !important;
+		width: 400px !important;
+	}
+	.lechim .tribloka .item img{
+		width: auto;
+	}
+	.lechim .tribloka .item_img{
+		height: 220px;
+	}
+	.lechim .tribloka p{
+		height: 165px;
+	}
+	.lechim h3{
+		margin-bottom: 0;
+	}
+	.bloki{
+		flex-wrap: wrap;
+	}
+	.bloki .item{
+		width: calc(50% - 25px);
+		margin-bottom: 50px;
+	}
+	.comanda .bloki .item, .certificates .bloki .item{
+		width: 100%;
+	}
+	.ceni .bloki .item{
+		margin-bottom: 90px;
+	}
+	footer .tribloka .item{
+		width: 300px !important;
+		padding-top: 0 !important;
+		text-align: center;
+	}
+	footer .item ul{
+		text-align: center;
+	}
+}
+@media screen and (max-width: 730px){
+	.main_section h1, .vivod h3{
+		font-size: 40px;
+		line-height: 56px;
+	}
+	.popup_form{
+		padding: 55px 20px;
+	}
+	.owl-carousel{
+		width: 100% !important;
+	}
+	.owl-carousel .owl-nav button.owl-prev{
+		left: -25px;
+	}
+	.owl-carousel .owl-nav button.owl-next{
+		right: -25px;
+	}
+}
+@media screen and (max-width: 660px){
+	.main_section .top{
+		flex-direction: column;
+		margin-top: 35px;
+	}
+	iframe{
+		width: 100%;
+	}
+	footer .soc, .contacts_content .soc, .mobile_menu .soc{
+		justify-content: space-between;
+    	width: 260px;
+	}
+	.main_section .top .soc a, .main_section .top .soc i, footer .soc a, footer .soc i, .top .soc a img, footer .soc a img, .mobile_menu .soc i, .mobile_menu .soc a, .mobile_menu .soc a img{
+		font-size: 28px;
+		width: 28px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.soc, .contacts p{
+		margin-bottom: 15px;
+	}
+	.container{
+		width: calc(100% - 50px);
+	}
+	.main_section.page_section h1{
+		font-size: 26px;
+	}
+}
+@media screen and (max-width: 620px){
+	.comanda .bloki .item{
+		max-width: 400px;
+	}
+	.ceni .bloki .item{
+		width: 400px;
+	}
+	.ceni .item p{
+		width: 100%;
+		display: block;
+		margin-top: 15px;
+	}
+	.popup_form h2{
+		font-size: 20px;
+	}
+	.rodnie_blizkie, .complex, .osobennosti_igromanii{
+		padding: 40px 10px;
+	}
+	.ambulator_form_section input[type='text']{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 450px){
+	.logo p{
+		text-align: left;
+		font-size: 11px;
+	}
+	.main_section .top .contacts{
+		flex-direction: column;
+	}
+	.ambulator_section .dvabloka .item img{
+		width: 100%;
+	}
+	.main_section.ambulator_main_section{
+		height: auto;
+		padding-bottom: 25px;
+	}
+	.ambulator_form_section p a{
+		font-size: 34px;
+		display: block;
+	}
+	.prices_section .bloki .item p{
+		text-align: center;
+	}
+	.vivod{
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	.main_section .top .contacts .phone{
+		margin-left: 0;
+	}
+	.main_section h1, .vivod h3{
+		font-size: 28px;
+	}
+	.main_section.page_section h1{
+		font-size: 18px;
+	}
+	.tribloka .item{
+		width: 300px !important;
+	}
+	.lechim .tribloka .item img{
+		width: 100%;
+	}
+	.zapis .dvabloka p.p_phone_mail{
+		font-size: 30px;
+	}
+	.dvabloka .item p, .kakrabotaem .dvabloka .item li, .big_italic_text_block p, .metodiki li{
+		text-align: center;
+	}
+	.metodiki li, .metodiki p, .complex.complex_igroman p, .ambulator_section li, .ambulator_section p{
+		text-align: center;
+	}
+	.complex li{
+		padding-left: 0;
+		text-align: center;
+	}
+	.kakrabotaem .dvabloka .item li{
+		margin-left: 0;
+	}
+	.metodiki li, .metodiki p{
+		height: auto;
+	}
+	.osobennosti_igromanii h3{
+		font-size: 36px;
+	}
+	.zapis input[type='text']{
+		width: 100%;
+	}
+	.pozvonite .item:nth-child(1) p{
+		text-align: center;
+		margin-bottom: 25px;
+	}
+	.pozvonite .item:nth-child(2) p{
+		font-size: 34px;
+	}
+	p, h3{
+		text-align: center;
+	}
+	footer .item .contacts p{
+		justify-content: center;
+	}
+	.why_us .tribloka, footer .tribloka{
+		margin-top: 0;
+	}
+	footer .item:nth-child(1), footer .item:nth-child(3){
+		height: auto;
+	}
+	footer .item ul li a{
+		font-size: 18px;
+	}
+}
+@media screen and (max-width: 360px){
+	.logo{
+		height: 57px;
+	}
+	.logo img{
+		height: 34px;
+	}
+	.logo p{
+		font-size: 10px;
+	}
+	.menu_button{
+		width: 30px;
+		height: 30px;
+	}
+}
